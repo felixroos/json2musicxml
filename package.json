@@ -20,7 +20,24 @@
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "ts-jest": "^24.0.0",
+    "babel-jest": "^24.1.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "collectCoverage": false,
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "dependencies": {
     "xml-js": "^1.6.11",
