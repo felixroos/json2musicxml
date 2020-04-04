@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "parcel ./demo/index.html --out-dir ./dist --no-hmr"
+    "demo": "parcel ./demo/index.html --out-dir ./dist --no-hmr",
+    "build": "parcel build ./demo/index.html --out-dir ./build --public-url /json2musicxml/"
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,8 @@
     ]
   },
   "dependencies": {
-    "xml-js": "^1.6.11",
-    "opensheetmusicdisplay": "^0.7.0"
+    "gh-pages": "^2.2.0",
+    "opensheetmusicdisplay": "^0.7.0",
+    "xml-js": "^1.6.11"
   }
 }

@@ -2,5 +2,6 @@ node_modules
 .vscode
 .cache
 dist
+build
 sheets
 demo/dist
